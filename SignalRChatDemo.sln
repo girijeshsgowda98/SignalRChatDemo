@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat", "SignalRChat\SignalRChat.csproj", "{F47D5644-2D43-4B20-825B-1B6142EF7043}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRChat", "SignalRChat\SignalRChat.csproj", "{F47D5644-2D43-4B20-825B-1B6142EF7043}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SignalRDemoRedis", "SignalRDemoRedis\SignalRDemoRedis.csproj", "{570FEEB7-9D92-42C3-ADD3-31E4FB8DB474}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationSignalRTest", "WebApplicationSignalRTest\WebApplicationSignalRTest.csproj", "{29C47EA4-A425-4CD8-8EB6-96778C823A1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplicationSignalR", "WebApplicationSignalR\WebApplicationSignalR.csproj", "{497A3B48-EF04-4227-A976-BB622A6AC01C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pawns", "Pawns\Pawns.csproj", "{74427423-2C2F-4ACC-AF5D-E8ECE759C1FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreSignalR", "CoreSignalR\CoreSignalR.csproj", "{DF30E09C-0A1F-4C44-8531-E0BE0AE9E128}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{F47D5644-2D43-4B20-825B-1B6142EF7043}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F47D5644-2D43-4B20-825B-1B6142EF7043}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F47D5644-2D43-4B20-825B-1B6142EF7043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{570FEEB7-9D92-42C3-ADD3-31E4FB8DB474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{570FEEB7-9D92-42C3-ADD3-31E4FB8DB474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{570FEEB7-9D92-42C3-ADD3-31E4FB8DB474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{570FEEB7-9D92-42C3-ADD3-31E4FB8DB474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C47EA4-A425-4CD8-8EB6-96778C823A1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C47EA4-A425-4CD8-8EB6-96778C823A1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C47EA4-A425-4CD8-8EB6-96778C823A1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C47EA4-A425-4CD8-8EB6-96778C823A1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{497A3B48-EF04-4227-A976-BB622A6AC01C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{497A3B48-EF04-4227-A976-BB622A6AC01C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{497A3B48-EF04-4227-A976-BB622A6AC01C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{497A3B48-EF04-4227-A976-BB622A6AC01C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74427423-2C2F-4ACC-AF5D-E8ECE759C1FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74427423-2C2F-4ACC-AF5D-E8ECE759C1FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74427423-2C2F-4ACC-AF5D-E8ECE759C1FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74427423-2C2F-4ACC-AF5D-E8ECE759C1FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF30E09C-0A1F-4C44-8531-E0BE0AE9E128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF30E09C-0A1F-4C44-8531-E0BE0AE9E128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF30E09C-0A1F-4C44-8531-E0BE0AE9E128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF30E09C-0A1F-4C44-8531-E0BE0AE9E128}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
